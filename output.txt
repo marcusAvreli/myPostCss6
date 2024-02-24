@@ -1,0 +1,27 @@
+
+> mypostcss6@1.0.0 pretest C:\Users\User\nodeJSDev\myPostCss6
+> cross-env NODE_ENV=local npm run build
+
+
+> mypostcss6@1.0.0 build C:\Users\User\nodeJSDev\myPostCss6
+> rollup -c 
+
+opts1111orig:{"output":"dest1","banner":"/**\n * VueLayers\n * \n *\n * @package mypostcss6\n * @author \n * @version 1.0.0\n * @license ISC\n * @copyright (c) 2017-2024, \n */","sourceMap":true,"sass":{"includePaths":["C:\\Users\\User\\nodeJSDev\\src","C:\\Users\\User\\nodeJSDev\\src\\styles","C:\\Users\\User\\nodeJSDev\\node_modules"]}}
+opts1111orig:{"output":"mySass","banner":"/**\n * VueLayers\n * \n *\n * @package mypostcss6\n * @author \n * @version 1.0.0\n * @license ISC\n * @copyright (c) 2017-2024, \n */","sourceMap":true,"sass":{"includePaths":["C:\\Users\\User\\nodeJSDev\\src","C:\\Users\\User\\nodeJSDev\\src\\scss","C:\\Users\\User\\nodeJSDev\\node_modules"]}}
+opts:{"external":["",""],"inlineDynamicImports":false,"input":"C:\\Users\\User\\nodeJSDev\\myPostCss6\\src\\index.js","chunkGroupingSize":5000,"perf":false,"plugins":[{"name":"re"},{"name":"import-sass-custom"}],"entry":"C:\\Users\\User\\nodeJSDev\\myPostCss6\\src\\index.js"}
+opts1111:{"include":["**/*.css","**/*.sass","**/*.scss"],"output":"mySass","banner":"/**\n * VueLayers\n * \n *\n * @package mypostcss6\n * @author \n * @version 1.0.0\n * @license ISC\n * @copyright (c) 2017-2024, \n */","sass":{"includePaths":["C:\\Users\\User\\nodeJSDev\\src","C:\\Users\\User\\nodeJSDev\\src\\scss","C:\\Users\\User\\nodeJSDev\\node_modules"]},"sourceMap":true}
+id:mySass
+=======START_TRANSFORM===========
+id:C:\Users\User\nodeJSDev\myPostCss6\src\index.js
+=======START_TRANSFORM===========
+id:C:\Users\User\nodeJSDev\myPostCss6\src\scss\index.scss
+checkPost_1
+checkPost_2:mySass
+checkPost_3
+checkPost_4
+=======START_TRANSFORM===========
+id:C:\Users\User\nodeJSDev\myPostCss6\src\components\button.js
+options:{"file":"C:\\Users\\User\\nodeJSDev\\myPostCss6\\src\\scss\\index.scss","outFile":"mySass","sourceMap":true,"data":"@import \"./core/index.scss\";\r\n@import \"./product/index.scss\";\r\n","omitSourceMapUrl":false,"sourceMapContents":true,"includePaths":["C:\\Users\\User\\nodeJSDev\\src","C:\\Users\\User\\nodeJSDev\\src\\scss","C:\\Users\\User\\nodeJSDev\\node_modules","C:\\Users\\User\\nodeJSDev\\myPostCss6\\src\\scss","C:\\Users\\User\\nodeJSDev\\myPostCss6"]}
+here
+here_1
+here_2

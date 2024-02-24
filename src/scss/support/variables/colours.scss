@@ -1,0 +1,21 @@
+@import "colour-system.scss";
+
+$bg-white: $white !default;
+$bg-gray:           $gray-100 !default;
+$bg-gray-dark:      $gray-900 !default;
+$bg-gray-light:     $gray-000 !default;
+$bg-blue-light:     $blue-000 !default;
+$bg-blue:           $blue-500 !default;
+
+$text-gray-dark: $gray-900 !default;
+$text-black:        $black !default;
+$text-gray-light:   $gray-500 !default;
+$text-red:          $red-600 !default;
+$text-blue:         $blue-500 !default;
+$text-white:        $white !default;
+$text-gray:         $gray-600 !default;
+
+$border-gray:        $gray-200 !default;
+$border-gray-light:  lighten($gray-200, 3%) !default;
+$border-gray-dark:   $gray-300 !default;
+$border-yellow:      desaturate($yellow-300, 60%) !default;

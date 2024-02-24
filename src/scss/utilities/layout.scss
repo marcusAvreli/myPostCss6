@@ -1,0 +1,25 @@
+// Layout
+// stylelint-disable block-opening-brace-space-after, block-opening-brace-space-before
+
+// Loop through the breakpoint values
+@each $breakpoint, $variant in $responsive-variants {
+  @include breakpoint($breakpoint) {
+    @each $position in $responsive-positions {
+      .position#{$variant}-#{$position} {
+        position: $position !important;
+      }
+    }
+  }
+}
+
+// Overflow utilities
+@each $overflow in (visible, hidden, auto, scroll) {
+  .overflow-#{$overflow} { overflow: $overflow !important; }
+  .overflow-x-#{$overflow} { overflow-x: $overflow !important; }
+  .overflow-y-#{$overflow} { overflow-y: $overflow !important; }
+}
+
+.top-0    { top: 0 !important; }
+.left-0    { left: 0 !important; }
+.right-0    { right: 0 !important; }
+.height-full { height: 100% !important; }

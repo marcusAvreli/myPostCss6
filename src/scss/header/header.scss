@@ -1,0 +1,11 @@
+.Header {
+  z-index: 32; // TODO: Figure out z-index system
+  display: flex;
+  padding: $spacer-3;
+  font-size: $h5-size;
+  line-height: $lh-default;
+  // color: $white-fade-70;
+  background-color: $bg-gray-dark;
+  align-items: center;
+  flex-wrap: nowrap;
+}

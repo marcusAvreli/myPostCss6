@@ -1,0 +1,72 @@
+.Box {
+  background-color: $bg-white;
+  border: $border-width $border-style $border-gray-dark;
+  border-radius: $border-radius;
+}
+
+// Box rows
+.Box-row {
+  padding: $spacer-3;
+  // stylelint-disable-next-line primer/spacing
+  margin-top: -1px;
+  list-style-type: none; // To account for applying Box component to a list
+  border-top: $border-width $border-style $border-gray;
+
+  &:first-of-type {
+    border-top-color: transparent;
+    // stylelint-disable-next-line primer/borders
+    border-top-left-radius: 2px;
+    // stylelint-disable-next-line primer/borders
+    border-top-right-radius: 2px;
+  }
+
+  &:last-of-type {
+    // stylelint-disable-next-line primer/borders
+    border-bottom-right-radius: 2px;
+    // stylelint-disable-next-line primer/borders
+    border-bottom-left-radius: 2px;
+  }
+
+  // Adds a blue vertical line to the left of the row
+  // For indicating a row item is unread
+  &.unread {
+    // stylelint-disable-next-line primer/box-shadow
+    box-shadow: 2px 0 0 $blue inset;
+  }
+
+  &.navigation-focus {
+    // Focus styles for when drag icon
+    .Box-row--drag-button {
+      color: $text-blue;
+      cursor: grab;
+      opacity: 100;
+    }
+
+    // Grabbing while row is dragged
+    &.is-dragging .Box-row--drag-button {
+      cursor: grabbing;
+    }
+
+    // Row dragging styles
+    &.sortable-chosen {
+      background-color: $bg-gray-light;
+    }
+
+    // Makes dragging row background gray
+    &.sortable-ghost {
+      background-color: $bg-gray;
+
+      // Hides contents of row while dragging so row looks solid gray
+      .Box-row--drag-hide {
+        opacity: 0;
+      }
+    }
+
+  }
+}
+
+.Box-row--hover-blue {
+  &:hover {
+    background-color: $bg-blue-light;
+  }
+}

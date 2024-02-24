@@ -1,0 +1,10 @@
+/* Set the font size to #{$h4-size} */
+.h4 {
+  font-size: $h4-size !important;
+}
+
+/* Set the font size to #{$h5-size} */
+.h5 { font-size: $h5-size !important; }
+
+/* Set the font weight to bold */
+.text-bold { font-weight: $font-weight-bold !important;}
